@@ -6,7 +6,7 @@ let janelaEdicaoFundo = document.querySelector('#janelaEdicaoFundo');
 let janelaEdicaoBtnFechar = document.querySelector('#janelaEdicaoBtnFechar');
 let idTarefaEdicao = document.querySelector('#idTarefaEdicao');
 let inputTarefaNomeEdicao = document.querySelector('#inputTarefaNomeEdicao');
-let btnAtualizarTarefa = document.querySelector('btnAtualizarTarefa');
+let btnAtualizarTarefa = document.querySelector('#btnAtualizarTarefa');
 
 inputNovaTarefa.addEventListener('keypress', (e) => {
     if(e.keyCode == 13){
